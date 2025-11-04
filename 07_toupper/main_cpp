@@ -1,1 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
 
+int main() {
+    string kalimat1("kucing hitam punya ekor ");
+
+    cout << "toupper\n";
+    for (int i=0; i<kalimat1.length();i++){
+        kalimat1[i]=toupper(kalimat1[i]);
+    }
+    cout << kalimat1 << endl;
+
+    return 0;
+}
